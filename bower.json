@@ -1,0 +1,21 @@
+{
+  "name": "tech-social",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "firebase": "^4.5.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

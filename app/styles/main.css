@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background: url(../images/bgd.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    background-color: rgba(0, 0, 0, .65);
+    height: 100%;
+    padding-top: 32px;
+}
+
+#videoFeed {
+    width: 350px;
+    height: auto;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 16px;
+}
+
+textarea.form-control {
+    height: 65px;
+}
+
+#col-photo {
+    /*transform: translate(600px, 0);*/
+    padding-top: 78px;
+    transition: all ease-in-out 200ms;
+    opacity: 0;
+}
+
+#col-photo.in {
+    /*transform: translate(0, 0) !important;*/
+    opacity: 1;
+}
+
+#guestPic {
+    display: none;
+}
